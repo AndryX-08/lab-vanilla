@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "LAB Robot",
+        "description": "Un robot per la Lab Vanilla",
+        "uuid": "bffc79ee-d99f-481c-9bee-4c9ce76ec39a",
+        "min_engine_version": [1, 12, 0],
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "Un robot per la Lab Vanilla",
+            "type": "resources",
+            "uuid": "bffc79ee-d99f-481c-9bee-4c9ce76ec39a",
+            "version": [0, 0, 2]
+        }
+    ]
+}

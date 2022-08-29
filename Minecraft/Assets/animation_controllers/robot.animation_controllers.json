@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.robot.ground": {
+            "states": {
+                "default": {
+                    "transitions":[
+                        {"swaying": "!query.is_on_ground"}
+                    ]
+                },
+                "swaying": {
+                    "animations":[
+                        "sway"
+                    ],
+                    "transitions":[
+                        {"default": "query.all_animations_finished && query.is_on_ground"}
+                    ]
+                }
+            }
+        }
+    }
+}
